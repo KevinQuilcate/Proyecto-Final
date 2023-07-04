@@ -12,10 +12,9 @@
 
 @media only screen and (max-width: 480px){
     .menu-navegador{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         a{
             padding: 5px;
             img{
@@ -27,9 +26,9 @@
     
         ul{
             li{
-                padding: 1px;
+                padding: 2px;
                 a{
-                    font-size: 8px;
+                    font-size: 10px;
                 }
             }
         }
