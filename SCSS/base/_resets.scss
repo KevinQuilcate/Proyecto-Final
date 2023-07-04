@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "general";
+    src: url("../assets/Ysabeau_Infant/YsabeauInfant-Medium.ttf");
+}
+
+* {
+margin: 0%;
+padding: 0%;
+font-family: "general";
+}
+
+.body {
+height: 100%;
+width: 100%;
+background: radial-gradient(rgba(255, 192, 203, 0.616), rgb(255, 153, 170), rgb(250, 115, 137));
+}
+
+@keyframes animacion{
+0%{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+100%{
+    transform: translateX(0);
+    opacity: 1;
+}
+}
