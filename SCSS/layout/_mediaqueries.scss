@@ -50,6 +50,14 @@
             padding: 5px;
         }
     }
+
+    .nosotros{
+        img{
+            width: 45%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
 }
 
 @media only screen and (max-width: 770px) {
@@ -105,6 +113,14 @@
             padding: 2px;
         }
     }
+
+    .nosotros{
+        img{
+            width: 45%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
 }
 
 @media only screen and (max-width: 480px){
@@ -158,5 +174,40 @@
             font-size: 15px;
             padding: 2px;
         }
+    }
+
+    .servicios{
+        p{
+            font-size: 15px;
+        }
+
+        img{
+            width: 75%;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+
+    .nosotros{
+        p{
+            font-size: 15px;
+        }
+
+        img{
+            width: 80%;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+
+    .contacto-logo{
+        padding: 5px;
+        a{
+            img{
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+            }
+        }    
     }
 }

@@ -223,6 +223,11 @@ h1 {
     font-size: 17px;
     padding: 5px;
   }
+  .nosotros img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+  }
 }
 @media only screen and (max-width: 770px) {
   .menu-navegador {
@@ -267,6 +272,11 @@ h1 {
   .caja-hijo h2 {
     font-size: 15px;
     padding: 2px;
+  }
+  .nosotros img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -313,6 +323,30 @@ h1 {
   .caja-hijo h2, .caja-hijo p {
     font-size: 15px;
     padding: 2px;
+  }
+  .servicios p {
+    font-size: 15px;
+  }
+  .servicios img {
+    width: 75%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .nosotros p {
+    font-size: 15px;
+  }
+  .nosotros img {
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .contacto-logo {
+    padding: 5px;
+  }
+  .contacto-logo a img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
   }
 }
 
